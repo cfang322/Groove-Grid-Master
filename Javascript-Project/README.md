@@ -70,4 +70,4 @@ The project will primarily use:
 **Thursday Morning:**
   - Deploy the project to GitHub Pages.
   - Final testing and debugging.
-  - Prepare for project presentation.
+  - Prepare for project presentation.   
