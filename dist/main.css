@@ -54,3 +54,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+#button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+#board-container {
+  border: 1px solid black;
+  height: 600px;
+}
