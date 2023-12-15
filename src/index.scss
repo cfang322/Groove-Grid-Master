@@ -4,7 +4,7 @@
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px; /* Adjust the font size as needed */
+    font-size: 60px; /* Adjust the font size as needed */
     margin-top: 50px; /* Adjust the margin-top as needed */
     color: bisque;
     text-shadow: 2px 2px 4px brown;
@@ -12,22 +12,44 @@ h1 {
 
 body {
     background-image: url(https://img1.picmix.com/output/stamp/normal/2/0/5/6/316502_7f4ce.gif);
+    display: flex;
+    flex-wrap: row;
 }
 
 #buttons-wrapper {
     display: flex;
     justify-content: space-around;
-    margin: 15px 0;
+    margin: 20px 0;
+
+    /* Added styles for the dropdown wrapper */
+    // .dropdown-wrapper {
+    //     position: relative;
+    // }
+
+    /* Added styles for the dropdown selector */
+    // select {
+    //     padding: 8px;
+    //     font-size: 16px;
+    //     cursor: pointer;
+    //     border: 1px solid rgb(199, 163, 163);
+    //     background-color: blanchedalmond;
+    //     color: rgb(164, 121, 69);
+    // }
 }
 
 #buttons-wrapper button {
     color: rgb(164, 121, 69);
     text-shadow: 2px 2px 4px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 50px;
     background-color: blanchedalmond;
     border: 1px solid rgb(199, 163, 163);
     cursor: pointer;
+
+    // &:hover {
+    //     background-color: sandybrown;
+    //     color: white;
+    // }
 }
 
 #board-wrapper {
@@ -50,6 +72,21 @@ body {
     height: 800px;
 }  
 
+// #slider-wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-end; /* Align sliders to the right */
+//     margin-right: 20px; /* Adjust the margin as needed */
+//     position: absolute; /* Add absolute positioning */
+//     top: 0; /* Align to the top of the page */
+//     right: 0; /* Align to the right of the page */
+// }
+
+// #volume-slider,
+// #pitch-slider,
+// #effects {
+//     margin-bottom: 10px; /* Add some space between sliders and the dropdown */
+// }
 
 
 
