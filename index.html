@@ -12,9 +12,9 @@
  
   <body>
     <h1>Groove Grid Master</h1>
-    <div id="board-wrapper">
+    <!-- <div id="board-wrapper"> -->
       
-      <div id="buttons-wrapper">
+      <section id="buttons-wrapper">
         <!-- <div class="dropdown-wrapper">
           <label for="effects">Effects:</label>
             <select id="effects">
@@ -27,20 +27,33 @@
           <button id="play">⏵</button>
           <button id="pause">⏸</button>
           <button id="trash">🗑</button>
-      </div>
-
-      <div id="slider-wrapper">
-        <label for="volume-slider">Volume:</label>
-        <input type="range" id="volume-slider" min="0" max="100" value="50">
-
-        <label for="pitch-slider">Pitch:</label>
-        <input type="range" id="pitch-slider" min="0.5" max="2" step="0.1" value="1">
-      </div>
-
+      </section>
+      
+      <section id="middle-rectangle-wrapper">
         <div id="board-container">
           <!-- <button>Button</button> -->
         </div>
-    </div>
+        
+        <div id="slider-wrapper">
+          <label for="volume-slider">Volume:</label>
+          <input type="range" id="volume-slider" min="0" max="100" value="50">
+
+          <label for="pitch-slider">Pitch:</label>
+          <input type="range" id="pitch-slider" min="0.5" max="2" step="0.1" value="1">
+
+          <div class="dropdown-wrapper">
+            <label for="effects">Effects:</label>
+              <select id="effects">
+                <option value="classic">Classic</option>
+                <option value="major">Major</option>
+                <option value="harmonic-minor">Harmonic Minor</option>
+              </select>
+          </div>
+        </div>
+      </section>
+
+        
+    <!-- </div> -->
     
     <script src="src/scripts/board.js"></script>
   </body>

@@ -13,14 +13,16 @@ h1 {
 body {
     background-image: url(https://img1.picmix.com/output/stamp/normal/2/0/5/6/316502_7f4ce.gif);
     display: flex;
-    flex-wrap: row;
+    flex-direction: column;
 }
 
 #buttons-wrapper {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
-
+    font-size: 5px;
+    width: 100%;
+    border: 1px solid red;
     /* Added styles for the dropdown wrapper */
     // .dropdown-wrapper {
     //     position: relative;
@@ -52,41 +54,27 @@ body {
     // }
 }
 
-#board-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 800px;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
 #board-container {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     // grid-template-rows: repeat(10);
     gap: 4px;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 800px;
+    min-width: 800px;
+    margin: 0 0 0 auto;
     border: 1px solid black;
-    height: 800px;
+    height: 500px;
 }  
 
-// #slider-wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: flex-end; /* Align sliders to the right */
-//     margin-right: 20px; /* Adjust the margin as needed */
-//     position: absolute; /* Add absolute positioning */
-//     top: 0; /* Align to the top of the page */
-//     right: 0; /* Align to the right of the page */
-// }
+#middle-rectangle-wrapper {
+    display: flex;
+}
 
-// #volume-slider,
-// #pitch-slider,
-// #effects {
-//     margin-bottom: 10px; /* Add some space between sliders and the dropdown */
-// }
-
+#slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-evenly;
+}
 
 
