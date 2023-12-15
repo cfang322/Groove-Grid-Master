@@ -12,13 +12,25 @@
  
   <body>
     <h1>Groove Grid Master</h1>
-
-    <div id="wrapper">
-      <div id="button-wrapper">
-        <button id="play">Play</button>
+    <div id="board-wrapper">
+      
+      <div id="buttons-wrapper">
+          <button id="play">Play</button>
+          <button id="pause">Pause</button>
+          <button id="trash">Trash</button>
       </div>
 
-      <div id="board-container"></div>
+      <div id="slider-wrapper">
+        <label for="volume-slider">Volume:</label>
+        <input type="range" id="volume-slider" min="0" max="100" value="50">
+
+        <label for="pitch-slider">Pitch:</label>
+        <input type="range" id="pitch-slider" min="0.5" max="2" step="0.1" value="1">
+      </div>
+
+        <div id="board-container">
+          <!-- <button>Button</button> -->
+        </div>
     </div>
     
     <script src="src/scripts/board.js"></script>
